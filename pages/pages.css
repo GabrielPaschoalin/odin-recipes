@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(135deg, green, yellow, blue, white);
+    height: 100vh;
+}
+
+.image-dish{
+    text-align: center;
+}
+.recipe{
+    padding: 10px;
+}
+
+a{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border: black;
+    margin-top:10px
+
+}
