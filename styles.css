@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(135deg, green, yellow, blue, white);
+    height: 100vh;
+}
+
+.bandeira{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.recipes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    grid-template-rows: repeat(2, auto); /* 2 linhas */
+    gap: 50px; /* Espaço entre os itens */
+}
+
+.dish{
+    text-align: center;
+    
+
+}
+
+.dish-size{
+    height: 250px;
+    width: 250px;
+}
+
+.dish-name{
+    background-color: green;
+    font-size:30px;
+    font-weight: bold;
+}
